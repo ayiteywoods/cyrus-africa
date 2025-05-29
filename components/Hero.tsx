@@ -51,7 +51,7 @@ const Hero = () => {
           }}
           title="Background video"
         ></iframe>
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="absolute inset-0 bg-black opacity-10"></div>
       </div>
 
       {/* Content - Centered with slanted edge */}
@@ -59,7 +59,7 @@ const Hero = () => {
         <div className="absolute bottom-0 right-0 w-full">
           <div className="flex justify-end">
             <div className="w-full md:w-1/2 text-right px-4 md:px-0">
-              <div className="bg-green-600 bg-opacity-40 p-6 md:p-10 
+              <div className="bg-green-700 bg-opacity-70 p-6 md:p-10 
                 [clip-path:polygon(0_0,100%_0,100%_100%,20%_100%)]">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-white whitespace-nowrap overflow-hidden">
                   Empowering Communities
