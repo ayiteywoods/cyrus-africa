@@ -16,7 +16,7 @@ export default function ApproachPage() {
           style={{ objectFit: 'cover' }}
           priority
         />
-         <div className="absolute inset-0 bg-black/60 flex flex-col items-end justify-end p-8 md:p-12">
+         <div className="absolute inset-0 bg-black/20 flex flex-col items-end justify-end p-8 md:p-12">
            <div className="bg-black/40 p-6 rounded-lg backdrop-blur-sm">
              <motion.p 
                initial={{ opacity: 0, y: 20 }}

@@ -96,7 +96,7 @@ The results of our partnership approach have been impressive:
 - 75% improvement in resource efficiency
 
 Looking forward, we're expanding our partnership network to include more technology providers, financial institutions, and development organizations. Our goal is to create a robust ecosystem of partners working together to transform rural livelihoods.`,
-    image: "/blog3.jpg",
+    image: "/use3.jpg",
     date: "March 5, 2024",
     author: "Mike Johnson",
     category: "Partnerships"
@@ -215,7 +215,7 @@ The results of our digital mapping initiative include:
 - 50% reduction in post-harvest losses
 
 We're continuing to innovate and expand our digital mapping capabilities to create more efficient and sustainable supply chains.`,
-    image: "/impact.jpg",
+    image: "/use4.jpg",
     date: "February 15, 2024",
     author: "Lisa Chen",
     category: "Innovation"

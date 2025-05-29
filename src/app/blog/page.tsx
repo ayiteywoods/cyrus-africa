@@ -29,7 +29,7 @@ const blogPosts = [
     id: 3,
     title: "Building Sustainable Partnerships",
     excerpt: "The importance of strategic partnerships in achieving our mission of rural development.",
-    image: "/blog3.jpg",
+    image: "/use3.jpg",
     date: "March 5, 2024",
     author: "Mike Johnson",
     category: "Partnerships"
@@ -56,7 +56,7 @@ const blogPosts = [
     id: 6,
     title: "Innovation in Rural Supply Chains",
     excerpt: "How digital mapping is revolutionizing supply chain management in rural areas.",
-    image: "/impact.jpg",
+    image: "/use4.jpg",
     date: "February 15, 2024",
     author: "Lisa Chen",
     category: "Innovation"
@@ -75,7 +75,7 @@ export default function BlogPage() {
           style={{ objectFit: 'cover' }}
           priority
         />
-         <div className="absolute inset-0 bg-black/60 flex flex-col items-end justify-end p-8 md:p-12">
+         <div className="absolute inset-0 bg-black/40 flex flex-col items-end justify-end p-8 md:p-12">
            <div className="bg-black/40 p-6 rounded-lg backdrop-blur-sm">
              <motion.p 
                initial={{ opacity: 0, y: 20 }}

@@ -10,13 +10,13 @@ export default function AboutPage() {
       {/* Page Header with Full-width Image */}
       <div className="relative w-full h-[60vh] overflow-hidden">
          <Image 
-          src="/market.jpg"
+          src="/use4.jpg"
           alt="About Us Header Background" 
           fill
           style={{ objectFit: 'cover' }}
           priority
         />
-         <div className="absolute inset-0 bg-black/60 flex flex-col items-end justify-end p-8 md:p-12 text-white">
+         <div className="absolute inset-0 bg-black/30 flex flex-col items-end justify-end p-8 md:p-12 text-white">
            <motion.p 
              initial={{ opacity: 0, y: 20 }}
              animate={{ opacity: 1, y: 0 }}

@@ -87,7 +87,7 @@ export default function HomePage() {
             >
               <div className="relative h-48">
                 <Image 
-                  src="/blog2.jpg"
+                  src="/use1.jpg"
                   alt="Poverty Reduction"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -111,7 +111,7 @@ export default function HomePage() {
             >
               <div className="relative h-48">
                 <Image 
-                  src="/market.jpg"
+                  src="/use4.jpg"
                   alt="Financial Inclusion"
                   fill
                   style={{ objectFit: 'cover' }}
@@ -134,7 +134,7 @@ export default function HomePage() {
             >
               <div className="relative h-48">
                 <Image 
-                  src="/blog3.jpg"
+                  src="/use3.jpg"
                   alt="Digital Transformation"
                   fill
                   style={{ objectFit: 'cover' }}

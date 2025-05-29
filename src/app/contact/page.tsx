@@ -48,13 +48,13 @@ export default function ContactPage() {
       {/* Page Header with Full-width Image */}
       <div className="relative w-full h-[60vh] overflow-hidden">
          <Image 
-          src="/hero2.jpg"
+          src="/use1.jpg"
           alt="Contact Us Header Background" 
           fill
           style={{ objectFit: 'cover' }}
           priority
         />
-         <div className="absolute inset-0 bg-black/60 flex flex-col items-end justify-end p-8 md:p-12 text-white">
+         <div className="absolute inset-0 bg-black/30 flex flex-col items-end justify-end p-8 md:p-12 text-white">
            <motion.p 
              initial={{ opacity: 0, y: 20 }}
              animate={{ opacity: 1, y: 0 }}
@@ -149,7 +149,7 @@ export default function ContactPage() {
                     </p>
                   </div>
                 </div>
-                <Image src='/blog1.jpg' alt='get in touch' width={400} height={300}/>
+                <Image src='/use1.jpg' alt='get in touch' width={400} height={300}/>
 
               </div>
             </motion.div>
