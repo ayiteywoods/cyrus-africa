@@ -8,7 +8,7 @@ import Hero from '../../components/Hero';
 import { useState } from 'react';
 
 export default function HomePage() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   return (
     <div>
       {/* Hero Section */}

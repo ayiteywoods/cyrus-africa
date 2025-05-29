@@ -31,7 +31,7 @@ The impact of these initiatives has been significant. Communities that have part
 - 50% improvement in supply chain efficiency
 
 Looking ahead, we're expanding our digital transformation efforts to reach more communities and develop more innovative solutions. Our goal is to ensure that no community is left behind in the digital age.`,
-    image: "/blog-1.jpg",
+    image: "/market.jpg",
     date: "March 15, 2024",
     author: "John Doe",
     category: "Technology"
@@ -60,7 +60,7 @@ A women's group in Kenya received financing to start a collective farming initia
 - Establishment of a successful local market
 
 These success stories demonstrate the transformative power of value chain financing. By providing access to capital and technical support, we're helping rural communities build sustainable businesses and improve their livelihoods.`,
-    image: "/blog-2.jpg",
+    image: "/blog2.jpg",
     date: "March 10, 2024",
     author: "Jane Smith",
     category: "Impact"
@@ -96,7 +96,7 @@ The results of our partnership approach have been impressive:
 - 75% improvement in resource efficiency
 
 Looking forward, we're expanding our partnership network to include more technology providers, financial institutions, and development organizations. Our goal is to create a robust ecosystem of partners working together to transform rural livelihoods.`,
-    image: "/blog-3.jpg",
+    image: "/blog3.jpg",
     date: "March 5, 2024",
     author: "Mike Johnson",
     category: "Partnerships"
@@ -135,7 +135,7 @@ The impact of our financial inclusion initiatives has been significant:
 - 30% improvement in savings rates
 
 We're committed to expanding our financial inclusion efforts to reach more communities and develop more innovative solutions.`,
-    image: "/blog-4.jpg",
+    image: "/hero1.jpg",
     date: "February 28, 2024",
     author: "Sarah Williams",
     category: "Finance"
@@ -178,7 +178,7 @@ The results of our digital literacy program have been impressive:
 - 40% improvement in business efficiency
 
 We're expanding our digital literacy programs to reach more communities and develop more advanced training modules.`,
-    image: "/blog-5.jpg",
+    image: "/hero2.jpg",
     date: "February 20, 2024",
     author: "David Brown",
     category: "Education"
@@ -215,7 +215,7 @@ The results of our digital mapping initiative include:
 - 50% reduction in post-harvest losses
 
 We're continuing to innovate and expand our digital mapping capabilities to create more efficient and sustainable supply chains.`,
-    image: "/blog-6.jpg",
+    image: "/impact.jpg",
     date: "February 15, 2024",
     author: "Lisa Chen",
     category: "Innovation"
