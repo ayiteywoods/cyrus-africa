@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FaHandshake, FaUsers, FaChartLine, FaHandHoldingHeart, FaArrowRight, FaCalendarAlt } from 'react-icons/fa';
 import Hero from '../../components/Hero';
-import { useState } from 'react';
 
 export default function HomePage() {
   
