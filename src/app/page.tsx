@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { FaHandshake, FaUsers, FaChartLine, FaLightbulb, FaHandHoldingHeart, FaGlobeAfrica, FaArrowRight, FaCalendarAlt } from 'react-icons/fa';
+import { FaHandshake, FaUsers, FaChartLine, FaHandHoldingHeart, FaArrowRight, FaCalendarAlt } from 'react-icons/fa';
 import Hero from '../../components/Hero';
 import { useState } from 'react';
 
@@ -121,7 +121,7 @@ export default function HomePage() {
               <div className="p-6 text-white">
                 <h3 className="text-xl font-semibold mb-3">Financial Inclusion</h3>
                 <p className="text-white/90">
-                  We've expanded financial inclusion, providing affordable financing options to underserved populations.
+                  We&apos;ve expanded financial inclusion, providing affordable financing options to underserved populations.
                 </p>
               </div>
             </motion.div>

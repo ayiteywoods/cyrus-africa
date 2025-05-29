@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { FaUsers, FaHandshake, FaChartLine, FaGlobeAfrica } from 'react-icons/fa';
+//import { FaUsers, FaHandshake, FaChartLine, FaGlobeAfrica } from 'react-icons/fa';
 
 export default function ApproachPage() {
   return (

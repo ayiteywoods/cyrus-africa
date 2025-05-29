@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+//import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FaHandHoldingHeart, FaCreditCard, FaPaypal, FaMobile } from 'react-icons/fa';
 
@@ -192,7 +192,7 @@ export default function DonatePage() {
           >
             <h2 className="text-3xl font-bold mb-6">Your Impact</h2>
             <p className="text-xl text-gray-700 mb-8">
-              Every donation makes a difference in the lives of rural communities. Here's what your contribution can do:
+              Every donation makes a difference in the lives of rural communities. Here&apos;s what your contribution can do:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md">

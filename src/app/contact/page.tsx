@@ -83,7 +83,7 @@ export default function ContactPage() {
             viewport={{ once: true }}
             className="mb-12 text-center text-xl prose lg:prose-xl"
           >
-            We'd love to hear from you. Please reach out to us through the following channels:
+            We&apos;d love to hear from you. Please reach out to us through the following channels:
           </motion.p>
           
           {/* Two Column Layout with Form Column Wider */}
@@ -236,7 +236,7 @@ export default function ContactPage() {
             viewport={{ once: true }}
             className="mt-12 text-center text-xl prose lg:prose-xl"
           >
-            Let's partner to empower rural communities and create a brighter future for all.
+            Let&apos;s partner to empower rural communities and create a brighter future for all.
           </motion.p>
         </div>
       </div>

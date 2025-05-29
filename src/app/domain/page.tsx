@@ -328,7 +328,7 @@ export default function DomainPage() {
           >
             <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
             <p className="text-xl mb-8">
-              Let's discuss how we can help you establish a strong digital presence for your organization.
+              Let&apos;s discuss how we can help you establish a strong digital presence for your organization.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 

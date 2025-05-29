@@ -107,7 +107,7 @@ export default function GetInvolvedPage() {
               <div>
                 <h3 className="text-2xl font-semibold text-gray-800 mb-2">Funding Opportunities</h3>
                 <p>
-                  We're seeking funding partners to support our mission and expand our impact.
+                  We&apos;re seeking funding partners to support our mission and expand our impact.
                 </p>
               </div>
             </motion.div>

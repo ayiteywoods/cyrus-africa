@@ -50,12 +50,12 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  At Cyrus Africa, we're dedicated to unlocking the economic potential of rural communities across Africa. 
+                  At Cyrus Africa, we&apos;re dedicated to unlocking the economic potential of rural communities across Africa. 
                   Our innovative approach combines affordable financing with cutting-edge digital technologies to strengthen 
                   supply chains and empower low-income individuals.
                 </p>
                 <p>
-                  Founded with a vision to create sustainable change, we've been at the forefront of digital transformation 
+                  Founded with a vision to create sustainable change, we&apos;ve been at the forefront of digital transformation 
                   in rural communities, helping to bridge the digital divide and create opportunities for growth and development.
                 </p>
                 <p>

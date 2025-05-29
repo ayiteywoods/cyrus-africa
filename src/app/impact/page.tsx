@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+//import Link from 'next/link';
 import { FaChartLine, FaUsers, FaHandshake } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import CountUp from 'react-countup';
@@ -47,7 +47,7 @@ export default function ImpactPage() {
             viewport={{ once: true }}
             className="mb-12 text-center text-xl prose lg:prose-xl"
           >
-            Through our innovative approach to value chain financing, we've made significant strides in transforming rural livelihoods across Africa.
+            Through our innovative approach to value chain financing, we&apos;ve made significant strides in transforming rural livelihoods across Africa.
           </motion.p>
 
           {/* Impact Areas in Grid/Cards */}
@@ -176,7 +176,7 @@ export default function ImpactPage() {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Digital Transformation</h3>
                   <p className="text-gray-600">
-                    The impact of digital literacy training on rural communities' access to markets.
+                    The impact of digital literacy training on rural communities&apos; access to markets.
                   </p>
                 </div>
               </div>
