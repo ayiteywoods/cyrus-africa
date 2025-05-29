@@ -251,7 +251,7 @@ export default function HomePage() {
         
         {/* Partners Column */}
         <div>
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Partners</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Our Partners</h2>
           <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
             {[1, 2, 4, 7, 5, 6].map((partner) => (
               <div key={partner} className="bg-white p-4 rounded-lg shadow-md flex items-center justify-center h-32">
@@ -383,7 +383,7 @@ export default function HomePage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className="text-3xl font-bold"
+              className="text-3xl font-bold "
             >
               Latest from Our Blog
             </motion.h2>
