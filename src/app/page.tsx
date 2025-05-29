@@ -249,9 +249,30 @@ export default function HomePage() {
       {/* Partners Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-      
-          <div className="grid md:grid-cols-2 gap-8 my-16">
+        
         {/* Partners Column */}
+        <div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Partners</h2>
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
+            {[1, 2, 4, 7, 5, 6].map((partner) => (
+              <div key={partner} className="bg-white p-4 rounded-lg shadow-md flex items-center justify-center h-32">
+                <Image
+                  src={`/part${partner}.png`} // Update with your actual partner images
+                  alt={`Partner ${partner}`}
+                  width={120}
+                  height={80}
+                  className="object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Projects Column */}
+        
+      
+         {/* <div className="grid md:grid-cols-2 gap-8 my-16">
+        
         <div>
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Partners</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
@@ -269,7 +290,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Projects Column */}
+       
         <div>
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Our Projects</h2>
           <motion.div 
@@ -296,9 +317,9 @@ export default function HomePage() {
             
           </motion.div>
         </div>
-      </div>
+      </div> */} 
 
-      {/* Modal */}
+      {/* Modal 
       {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
           <motion.div 
@@ -350,7 +371,7 @@ export default function HomePage() {
             </div>
           </motion.div>
         </div>
-      )}
+      )} */}
         </div>
       </section>
 
