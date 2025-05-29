@@ -231,7 +231,7 @@ export default function BlogPost({ params }: { params: Promise<{ id: string }> }
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">Post Not Found</h1>
-          <p className="mb-8">The blog post you're looking for doesn't exist.</p>
+          <p className="mb-8">The blog post you&apos;re looking for doesn&apos;t exist.</p>
           <Link 
             href="/blog"
             className="inline-flex items-center gap-2 text-[#4db848] hover:text-[#3d9c3a] transition-colors"
