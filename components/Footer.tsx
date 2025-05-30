@@ -59,6 +59,7 @@ const Footer = () => {
               <li><Link href="/get-involved" className="text-gray-600 hover:text-[#4db848]">Why Partner with Us?</Link></li>
               <li><Link href="/get-involved" className="text-gray-600 hover:text-[#4db848]">Funding Opportunities</Link></li>
               <li><Link href="/get-involved" className="text-gray-600 hover:text-[#4db848]">Join Us</Link></li>
+              <li><Link href="/ekulibi" className="text-gray-600 hover:text-[#4db848]">The Ekulibi Project</Link></li>
             </ul>
           </div>
 
