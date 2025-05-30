@@ -251,13 +251,14 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Our Partners</h2>
           <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
             {[1, 2, 4, 7, 5, 6].map((partner) => (
-              <div key={partner} className="bg-white p-4 rounded-lg shadow-md flex items-center justify-center h-32">
+              <div key={partner} className="bg-white p-4 rounded-lg flex items-center justify-center h-32">
                 <Image
                   src={`/part${partner}.png`} // Update with your actual partner images
                   alt={`Partner ${partner}`}
                   width={120}
                   height={80}
-                  className="object-contain"
+                  className="object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  
                 />
               </div>
             ))}
