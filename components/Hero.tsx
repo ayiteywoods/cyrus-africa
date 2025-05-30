@@ -64,8 +64,8 @@ const Hero = () => {
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-white whitespace-nowrap overflow-hidden">
                   Empowering Communities
                 </h1>
-                <p className="mt-4 md:mt-6 text-lg md:text-xl text-white">
-                  Join us in creating sustainable change through Christ-centered education initiatives worldwide.
+                <p className="mt-4 md:mt-6 text-lg md:text-xl text-white pl-8 md:pl-8">
+                Empowering women through sustainable trade and economic resilience. Join us in creating opportunities for a brighter future.
                 </p>
                 <div className="mt-6 md:mt-10">
                   <Link

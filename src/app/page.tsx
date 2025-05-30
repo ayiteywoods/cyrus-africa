@@ -14,8 +14,8 @@ export default function HomePage() {
       <Hero />
 
       {/* Mission Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
+      <section className="py-16 bg-[#d0952c]">
+        <div className="container mx-auto px-4 ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Image Column */}
             <motion.div 
@@ -42,15 +42,14 @@ export default function HomePage() {
               viewport={{ once: true }}
               className="space-y-6"
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Welcome to Cyrus Africa </h2>
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-100">Welcome to Cyrus Africa </h2>
+              <p className="text-lg text-gray-100 leading-relaxed">
               At Cyrus Africa, we&apos;re dedicated to unlocking the economic potential of rural communities 
               across Africa. Our innovative approach combines affordable financing with cutting-edge digital 
               technologies to strengthen supply chains and empower low-income individuals.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Join us in our journey to create lasting impact and build a more prosperous future for 
-                rural communities.
+              <p className="text-lg text-gray-100 font-bold leading-relaxed">
+              Working together for sustainable solutions for everyone.
               </p>
               <Link 
                 href="/about" 
