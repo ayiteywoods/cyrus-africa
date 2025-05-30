@@ -42,13 +42,11 @@ export default function HomePage() {
               viewport={{ once: true }}
               className="space-y-6"
             >
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Welcome to Cyrus Africa 
-                Foundation Stablished Since 2014</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Welcome to Cyrus Africa </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-              At CYRUS, we understand poverty as a complex, multi-dimensional issue, ensnaring individuals in a relentless 
-              cycle of material scarcity, physical frailty, vulnerability, powerlessness, and isolation. To combat this 
-              pervasive challenge, CYRUS Ghana has meticulously crafted a multi-dimensional strategy aimed at breaking the 
-              vicious cycle of poverty within our target communities.
+              At Cyrus Africa, we&apos;re dedicated to unlocking the economic potential of rural communities 
+              across Africa. Our innovative approach combines affordable financing with cutting-edge digital 
+              technologies to strengthen supply chains and empower low-income individuals.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Join us in our journey to create lasting impact and build a more prosperous future for 
