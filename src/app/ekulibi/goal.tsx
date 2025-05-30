@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 
 
 export function ImageSection() {
@@ -32,7 +31,7 @@ export function ImageSection() {
               <h2 className="text-4xl lg:text-5xl font-light tracking-[0.1em] text-gray-900 mb-8">Empowering Shea Nuts Farmers</h2>
             </div>
             <p className="text-gray-700 leading-relaxed text-justify">
-            Technology empowers Africa's shea farmers by enabling financial access. AI analyzes harvest data for collateral-free loans, 
+            Technology empowers Africa&apos;s shea farmers by enabling financial access. AI analyzes harvest data for collateral-free loans, 
             while mobile money provides instant financing. Blockchain ensures fair pricing through transparent supply chains. These 
             innovations help women farmers invest in equipment and sustainable growth, transforming subsistence farming into viable 
             businesses while preserving traditional practices and connecting them to global markets.
