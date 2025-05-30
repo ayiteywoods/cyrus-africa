@@ -149,6 +149,46 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className='py-10 bg-gray-200'>
+        <div className='container mx-auto px-4 text-center'>
+          <div>
+          <motion.h2 
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
+                  className="text-3xl md:text-4xl font-bold text-gray-700"
+                >
+            Our Recent Project
+            </motion.h2>
+            </div>
+            <div className='rounded-xl shadow-lg overflow-hidden m-8 bg-white grid md:grid-cols-3 gap-8 my-16'>
+              <div className='col-span-1'>
+                <Image 
+                  src="/project1.png"
+                  alt="Project Image"
+                  width={400}
+                  height={300}
+                  className="object-cover w-1/2 h-64 md:h-auto p-4 align-middle mx-auto"
+                />
+              </div>
+              <div className='p-6 flex flex-col justify-between col-span-2'>
+                <h3 className="text-2xl font-semibold mb-3">The Ekulibi Project</h3>
+                <p className="text-gray-600 mb-4">
+                  Understanding Poverty: A Multi-dimensional Perspective. This project focuses on leveraging digital tools to provide fair financing options for shea nut farmers, breaking traditional barriers to capital access.
+                </p>
+                <Link
+                  href="/ekulibi">           
+                <button className='rounded-lg bg-[#4db848] px-6 py-3 text-white align-middle w-full'>
+                  Read More
+                </button>
+                </Link>
+            </div>
+            </div>
+            
+        </div>
+      </section>
+
       {/* Our Approach Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
