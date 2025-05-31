@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   experimental: {
     serverComponentsExternalPackages: ['@tailwindcss/postcss'],
   },
+  
 };
 
 export default nextConfig;

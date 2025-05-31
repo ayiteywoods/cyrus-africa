@@ -10,14 +10,14 @@ const heroSlides = [
     title: 'Premium African Brands',
     subtitle: 'Curated selection of quality products',
     cta: 'Get in Touch',
-    link: './contact'
+    link: '../contact'
   },
   {
     image: '/ekulibiSlider2.jpeg',
     title: 'Handcrafted Excellence',
     subtitle: 'Support local artisans and makers',
     cta: 'Learn More',
-    link: './contact'
+    link: '../contact'
   },
  
 ];

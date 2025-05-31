@@ -64,8 +64,7 @@ export default function OurApproachPage() {
               </div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Digital Supply Chain Mapping</h3>
               <p>
-                We utilize digital tools to map and analyze supply chains, identifying bottlenecks and opportunities for improvement.
-              </p>
+              We develop algorithms to build credit score based on production data, payment history              </p>
             </motion.div>
 
             {/* Value Chain Financing */}
@@ -83,7 +82,7 @@ export default function OurApproachPage() {
               </div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Value Chain Financing</h3>
               <p>
-                Our innovative financing approach addresses the specific needs of rural supply chains, providing affordable and flexible financing options.
+              Our innovative financing approach addresses the specific needs of rural supply chains, providing affordable and flexible financing options.
               </p>
             </motion.div>
 
@@ -102,7 +101,7 @@ export default function OurApproachPage() {
               </div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Digital Literacy Training</h3>
               <p>
-                We empower rural communities with digital literacy training, ensuring they can effectively leverage digital technologies to improve their livelihoods.
+              We empower rural communities with digital literacy training, ensuring they can effectively leverage digital technologies to improve their livelihoods.
               </p>
             </motion.div>
 
@@ -121,7 +120,7 @@ export default function OurApproachPage() {
               </div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Partnerships and Collaborations</h3>
               <p>
-                We foster strategic partnerships with local organizations, governments, and private sector entities to amplify our impact.
+              We foster strategic partnerships with local organizations, governments, and private sector entities to amplify our impact.
               </p>
             </motion.div>
           </div>

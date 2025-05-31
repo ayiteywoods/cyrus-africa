@@ -92,10 +92,11 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-6">
                 <FaBullseye size={24} className="text-white"/>
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-semibold mb-4">Our Mission Statement</h3>
               <p className="text-gray-700">
-                Provide affordable and innovative value chain financing approaches for low-income people to reduce poverty, 
-                by deploying pioneering digital technologies to empower supply chains in last mile rural communities.
+              To empower underprivileged African farmers by providing accessible, affordable, and technology-driven 
+              credit solutions that enhance agricultural productivity, improve livelihoods, and promote sustainable 
+              rural development.
               </p>
             </motion.div>
 
@@ -109,10 +110,11 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-[#d0952c] rounded-full flex items-center justify-center mb-6">
                 <FaLightbulb size={24} className="text-white"/>
               </div>
-              <h3 className="text-2xl font-semibold mb-4">Our Vision</h3>
+              <h3 className="text-2xl font-semibold mb-4">Our Vision Statement</h3>
               <p className="text-gray-700">
-                To create a future where every rural community has access to the digital tools and financial resources 
-                they need to thrive and prosper.
+              To become Africa’s leading catalyst for agricultural transformation by enabling every farmer, 
+              regardless of background or location, to access the financial tools needed to sustain livelioods 
+              and feed the future.
               </p>
             </motion.div>
           </div>
@@ -127,10 +129,14 @@ export default function AboutPage() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-center mb-12"
+            className="text-3xl font-bold text-center mb-2"
           >
             Theory of Change
           </motion.h2>
+          <div className='text-center py-2 mb-12'>
+            <p>Our theory of change is rooted in the belief that by providing affordable financing and digital technologies, 
+              we can increase the economic resilience of rural communities, ultimately reducing poverty and improving livelihoods.</p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -142,9 +148,9 @@ export default function AboutPage() {
               <div className="w-12 h-12 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaUsers size={20} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Community Engagement</h3>
+              <h3 className="text-xl font-semibold mb-3">Short-term Outcomes</h3>
               <p className="text-gray-600">
-                Building strong relationships with rural communities to understand their needs and challenges.
+              Increased access to finance, improved digital literacy, and enhanced supply chain efficiency.
               </p>
             </motion.div>
 
@@ -158,9 +164,9 @@ export default function AboutPage() {
               <div className="w-12 h-12 bg-[#d0952c] rounded-full flex items-center justify-center mb-4">
                 <FaChartLine size={20} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Value Chain Development</h3>
+              <h3 className="text-xl font-semibold mb-3">Mid-term Outcomes</h3>
               <p className="text-gray-600">
-                Strengthening supply chains through digital technologies and innovative financing solutions.
+              Improved economic resilience, increased income, and reduced poverty.
               </p>
             </motion.div>
 
@@ -174,9 +180,9 @@ export default function AboutPage() {
               <div className="w-12 h-12 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaGlobeAfrica size={20} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Sustainable Impact</h3>
+              <h3 className="text-xl font-semibold mb-3">Long-term Outcomes</h3>
               <p className="text-gray-600">
-                Creating lasting change through sustainable development practices and community empowerment.
+              Sustainable livelihoods, economic growth, and reduced inequality.
               </p>
             </motion.div>
           </div>
@@ -193,7 +199,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-3xl font-bold text-center mb-12 text-white"
           >
-            Our Values
+            Our Values and Beliefs
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <motion.div 
@@ -206,9 +212,10 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaHandshake size={24} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Integrity</h3>
+              <h3 className="text-xl font-semibold mb-3">Partnership</h3>
               <p className="text-gray-600">
-                We conduct our operations with the highest standards of integrity, transparency, and accountability.
+              Collaborate with local farmers, communities, researchers, and industry experts to co-create solutions and drive progress in the agriculture value chain 
+              for positive social and economic impact.
               </p>
             </motion.div>
 
@@ -222,9 +229,9 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaUsers size={24} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Community Focus</h3>
+              <h3 className="text-xl font-semibold mb-3">Truth and Transparency</h3>
               <p className="text-gray-600">
-                We prioritize the needs and aspirations of the communities we serve, ensuring sustainable impact.
+              We build lasting relationships through honest communication, fair lending practices, and reliable service.
               </p>
             </motion.div>
 
@@ -238,9 +245,9 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaLightbulb size={24} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Innovation</h3>
+              <h3 className="text-xl font-semibold mb-3">Sustainability</h3>
               <p className="text-gray-600">
-                We embrace innovative solutions to address complex challenges in rural development.
+              We are committed to promoting sustainable best practice within the agriculture value chain.
               </p>
             </motion.div>
 
@@ -254,11 +261,64 @@ export default function AboutPage() {
               <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaChartLine size={24} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Excellence</h3>
+              <h3 className="text-xl font-semibold mb-3">Innovation for impact</h3>
               <p className="text-gray-600">
-                We strive for excellence in everything we do, continuously improving our services and impact.
+              We harness technology to create practical, user-friendly financial solutions tailored to the realities of rural Africa.
               </p>
             </motion.div>
+          </div>
+        </div>
+        <div className="container mx-auto px-4 mt-5">
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+            >
+              <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
+                <FaHandshake size={24} className="text-white"/>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Inclusion</h3>
+              <p className="text-gray-600">
+              We ensure our solutions are accessible and relevant to both men and women in the diverse communities we serve.
+              </p>
+            </motion.div>
+
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+            >
+              <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
+                <FaUsers size={24} className="text-white"/>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Data Driven</h3>
+              <p className="text-gray-600">
+              Leverage data and analytics to inform decision-making, drive efficiency, and optimize outcomes within the value chain
+              </p>
+            </motion.div>
+
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
+            >
+              <div className="w-16 h-16 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
+                <FaLightbulb size={24} className="text-white"/>
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Customer-Centricity</h3>
+              <p className="text-gray-600">
+              Put the needs of farmers at the forefront, providing tailored solutions and exceptional support              </p>
+            </motion.div>
+
+            
           </div>
         </div>
       </section>

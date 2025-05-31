@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FaHandshake, FaUsers, FaChartLine, FaHandHoldingHeart, FaArrowRight, FaCalendarAlt } from 'react-icons/fa';
-import Hero from '../../components/Hero';
+import Hero from 'components/Hero';
 
 export default function HomePage() {
   
@@ -115,7 +115,7 @@ export default function HomePage() {
                 />
               </div>
               <div className="p-6 text-white">
-                <h3 className="text-xl font-semibold mb-3">Financial Inclusion</h3>
+                <h3 className="text-xl font-semibold mb-3">Increased Access to Finance</h3>
                 <p className="text-white/90">
                   We&apos;ve expanded financial inclusion, providing affordable financing options to underserved populations.
                 </p>
@@ -178,8 +178,8 @@ export default function HomePage() {
                   Understanding Poverty: A Multi-dimensional Perspective. This project focuses on leveraging digital tools to provide fair financing options for shea nut farmers, breaking traditional barriers to capital access.
                 </p>
                 <Link
-                  href="/ekulibi">           
-                <button className='rounded-lg bg-[#4db848] px-6 py-3 text-white align-middle w-1/2 mx-auto hover:bg-[#3d9c3a] transition-colors'>
+                  href="/ekulibi/project">           
+                <button className='rounded-lg bg-[#4db848] px-6 py-3 text-white  hover:bg-[#3d9c3a] transition-colors'>
                   Read More
                 </button>
                 </Link>
@@ -227,8 +227,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Digital Supply Chain Mapping</h3>
               <p className="text-gray-600">
-                We utilize digital tools to map and analyze supply chains, identifying bottlenecks and opportunities.
-              </p>
+              We develop algorithms to build credit score based on production data, payment history.              </p>
             </motion.div>
 
             <motion.div 
@@ -243,7 +242,8 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Value Chain Financing</h3>
               <p className="text-gray-600">
-                Our innovative financing approach addresses the specific needs of rural supply chains.
+              Our innovative financing approach addresses the specific needs of rural supply chains, providing affordable 
+              and flexible financing options.
               </p>
             </motion.div>
 
@@ -259,7 +259,8 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Digital Literacy Training</h3>
               <p className="text-gray-600">
-                We empower rural communities with digital literacy training to leverage technologies effectively.
+              We empower rural communities with digital literacy training, ensuring they can effectively leverage digital 
+              technologies to improve their livelihoods.
               </p>
             </motion.div>
 
@@ -273,9 +274,10 @@ export default function HomePage() {
               <div className="w-16 h-16 bg-[#d0952c] rounded-full flex items-center justify-center mb-4">
                 <FaHandHoldingHeart size={24} className="text-white"/>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Partnerships</h3>
+              <h3 className="text-xl font-semibold mb-3">Partnerships and Collaborations</h3>
               <p className="text-gray-600">
-                We foster strategic partnerships to amplify our impact in rural communities.
+              We foster strategic partnerships with local organizations, governments, and private sector entities 
+              to amplify our impact.
               </p>
             </motion.div>
           </div>

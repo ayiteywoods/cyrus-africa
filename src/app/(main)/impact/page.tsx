@@ -63,9 +63,9 @@ export default function ImpactPage() {
               <div className="w-12 h-12 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaChartLine size={24} className="text-white"/>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Economic Impact</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Poverty Reduction</h3>
               <p>
-                Increased income for rural communities through improved access to finance and market opportunities.
+              Our pioneering value chain financing approach has helped reduce poverty among rural communities, improving livelihoods and economic stability.
               </p>
             </motion.div>
 
@@ -80,9 +80,9 @@ export default function ImpactPage() {
               <div className="w-12 h-12 bg-[#d0952c] rounded-full flex items-center justify-center mb-4">
                 <FaUsers size={24} className="text-white"/>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Social Impact</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Increased Access to Finance</h3>
               <p>
-                Enhanced livelihoods and improved quality of life for rural communities through sustainable development initiatives.
+              We've expanded financial inclusion, providing affordable financing options to underserved populations.
               </p>
             </motion.div>
 
@@ -97,9 +97,9 @@ export default function ImpactPage() {
               <div className="w-12 h-12 bg-[#4db848] rounded-full flex items-center justify-center mb-4">
                 <FaHandshake size={24} className="text-white"/>
               </div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Environmental Impact</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-2">Digital Transformation</h3>
               <p>
-                Promoted sustainable practices and environmental conservation through our value chain initiatives.
+              Our deployment of digital technologies has enhanced supply chain efficiency, reduced costs, and improved the overall quality of life for rural communities.
               </p>
             </motion.div>
           </div>
