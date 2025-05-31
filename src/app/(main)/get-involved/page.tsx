@@ -15,7 +15,7 @@ type CardProps = {
   bgColor: string;
 };
 // Reusable Card component
-function Card({ icon, title, listItems = [], paragraph = '', onDetailsClick, bgColor }: any) {
+function Card({ icon, title, listItems = [], paragraph = '', onDetailsClick, bgColor }: CardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
