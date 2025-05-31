@@ -5,6 +5,15 @@ import Link from 'next/link';
 import { FaBriefcase, FaHandshake, FaDonate, FaUsers } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+
+type CardProps = {
+  icon: React.ReactNode;
+  title: string;
+  listItems?: string[];
+  paragraph?: string;
+  onDetailsClick: () => void;
+  bgColor: string;
+};
 // Reusable Card component
 function Card({ icon, title, listItems = [], paragraph = '', onDetailsClick, bgColor }: any) {
   return (
