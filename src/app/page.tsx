@@ -179,7 +179,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href="/ekulibi">           
-                <button className='rounded-lg bg-[#4db848] px-6 py-3 text-white align-middle w-full'>
+                <button className='rounded-lg bg-[#4db848] px-6 py-3 text-white align-middle w-1/2 mx-auto hover:bg-[#3d9c3a] transition-colors'>
                   Read More
                 </button>
                 </Link>
