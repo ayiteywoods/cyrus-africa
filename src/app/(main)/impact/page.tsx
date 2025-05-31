@@ -82,7 +82,7 @@ export default function ImpactPage() {
               </div>
               <h3 className="text-2xl font-semibold text-gray-800 mb-2">Increased Access to Finance</h3>
               <p>
-              We've expanded financial inclusion, providing affordable financing options to underserved populations.
+              We&apos;ve expanded financial inclusion, providing affordable financing options to underserved populations.
               </p>
             </motion.div>
 
