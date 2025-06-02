@@ -1,60 +1,143 @@
 'use client'
 
 import Link from 'next/link';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const Hero = () => {
-  const videoRef = useRef<HTMLIFrameElement>(null);
+  const imageSequence = [
+    {
+      src: '/hero3.jpeg',
+      startZoom: 1.0,  // Start zoomed out
+      endZoom: 1.2,    // End zoomed in
+      position: 'center center',
+      overlay: 'from-green-900/20 to-blue-900/10',
+      duration: 8000   // 8 seconds per image
+    },
+    {
+      src: '/hero4.jpg',
+      startZoom: 1.2,  // Start zoomed in
+      endZoom: 1.0,    // End zoomed out
+      position: '20% center',
+      overlay: 'from-purple-900/15 to-amber-900/10',
+      duration: 7500   // 7.5 seconds
+    },
+    {
+      src: '/hero5.jpg',
+      startZoom: 1.1,
+      endZoom: 1.3,
+      position: 'center 30%',
+      overlay: 'from-blue-900/20 to-emerald-900/15',
+      duration: 8500   // 8.5 seconds
+    },
+    {
+      src: '/hero6.jpg',
+      startZoom: 1.3,
+      endZoom: 1.1,
+      position: '80% center',
+      overlay: 'from-amber-900/15 to-green-900/20',
+      duration: 7000   // 7 seconds
+    }
+  ];
   
-  // Video configuration
-  const videoId = 'jirqlGnx9EM';
-  const startTime = 2; // Start at 30 seconds
-  const endTime = 120; // End at 2 minutes (120 seconds)
-  const videoDuration = endTime - startTime;
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [progress, setProgress] = useState(0);
+  const animationRef = useRef<number | null>(null);
+  const lastTimeRef = useRef<number>(0);
 
-  useEffect(() => {
-    // Create the initial video URL
-    const createVideoUrl = () => {
-      return `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&start=${startTime}&end=${endTime}&enablejsapi=1`;
-    };
+  // Cinematic animation with variable durations
+  const animate = (timestamp: number) => {
+    if (!lastTimeRef.current) lastTimeRef.current = timestamp;
+    
+    const elapsed = timestamp - lastTimeRef.current;
+    const currentDuration = imageSequence[currentIndex].duration;
+    
+    const newProgress = Math.min(progress + (elapsed / currentDuration * 100), 100);
+    setProgress(newProgress);
 
-    // Set initial video source
-    if (videoRef.current) {
-      videoRef.current.src = createVideoUrl();
+    if (newProgress >= 100) {
+      setCurrentIndex((prev) => (prev + 1) % imageSequence.length);
+      setProgress(0);
+      lastTimeRef.current = timestamp;
+    } else {
+      lastTimeRef.current = timestamp;
     }
 
-    // Setup timer to handle video looping more precisely
-    const timer = setInterval(() => {
-      if (videoRef.current) {
-        videoRef.current.src = createVideoUrl();
-      }
-    }, videoDuration * 1000); // Reset at video duration interval
+    animationRef.current = requestAnimationFrame(animate);
+  };
 
-    return () => clearInterval(timer);
-  }, []);
+  useEffect(() => {
+    animationRef.current = requestAnimationFrame(animate);
+    return () => {
+      if (animationRef.current) {
+        cancelAnimationFrame(animationRef.current);
+      }
+    };
+  }, [currentIndex, progress]);
+
+  const currentImage = imageSequence[currentIndex];
+  const nextIndex = (currentIndex + 1) % imageSequence.length;
+  const nextImage = imageSequence[nextIndex];
+
+  // Calculate smooth zoom effects
+  const currentZoom = currentImage.startZoom + 
+    (currentImage.endZoom - currentImage.startZoom) * (progress / 100);
+
+  // Calculate crossfade opacity (starting at 90% progress)
+  const currentOpacity = progress < 90 ? 1 : 1 - ((progress - 90) / 10);
+  const nextOpacity = progress < 90 ? 0 : (progress - 90) / 10;
 
   return (
-    <div className="relative bg-white overflow-hidden h-[600px] md:h-[700px]">
-      {/* YouTube Video Background */}
-      <div className="absolute inset-0">
-        <iframe
-          ref={videoRef}
-          width="100%"
-          height="100%"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="object-cover pointer-events-none"
+    <div className="relative bg-gray-900 overflow-hidden h-[600px] md:h-[700px]">
+      {/* Cinematic background container */}
+      <div className="absolute inset-0 overflow-hidden">
+        {/* Current image with dynamic zoom */}
+        <div 
+          className="absolute inset-0"
           style={{
-            transform: 'scale(1.5)',
-            transformOrigin: 'center center'
+            backgroundImage: `url(${currentImage.src})`,
+            backgroundSize: `${currentZoom * 100}%`,
+            backgroundPosition: currentImage.position,
+            backgroundRepeat: 'no-repeat',
+            opacity: currentOpacity,
+            transition: 'none',
+            willChange: 'transform, opacity' // Optimize for animation
           }}
-          title="Background video"
-        ></iframe>
-        <div className="absolute inset-0 bg-black opacity-10"></div>
+        >
+          <div className={`absolute inset-0 bg-gradient-to-b ${currentImage.overlay}`} />
+        </div>
+
+        {/* Next image ready to crossfade */}
+        <div 
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `url(${nextImage.src})`,
+            backgroundSize: `${nextImage.startZoom * 100}%`,
+            backgroundPosition: nextImage.position,
+            backgroundRepeat: 'no-repeat',
+            opacity: nextOpacity,
+            transition: 'none',
+            willChange: 'transform, opacity'
+          }}
+        >
+          <div className={`absolute inset-0 bg-gradient-to-b ${nextImage.overlay}`} />
+        </div>
+
+        {/* Cinematic overlays */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 bg-[url('/film-grain.png')] opacity-[3%] mix-blend-overlay" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+        </div>
       </div>
 
-      {/* Content - Centered with slanted edge */}
+      {/* Time indicator (optional) */}
+      <div className="absolute top-0 left-0 right-0 h-0.5 z-20 bg-black/20">
+        <div 
+          className="h-full bg-white/90 transition-all duration-100"
+          style={{ width: `${progress}%` }}
+        />
+      </div>
+
+      {/* Content */}
       <div className="relative h-full flex items-center justify-center">
         <div className="absolute bottom-0 right-0 w-full">
           <div className="flex justify-end">
@@ -65,7 +148,7 @@ const Hero = () => {
                   Empowering Communities
                 </h1>
                 <p className="mt-4 md:mt-6 text-lg md:text-xl text-white pl-8 md:pl-8">
-                Empowering women through sustainable trade and economic resilience. Join us in creating opportunities for a brighter future.
+                  Empowering women through sustainable trade and economic resilience.
                 </p>
                 <div className="mt-6 md:mt-10">
                   <Link
@@ -85,157 +168,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
-
-{/* This component is designed to be used in a Next.js application.
-
-'use client'
-
-import { useState, useEffect, useCallback } from 'react';
-import Link from 'next/link';
-
-const slides = [
-  {
-    image: '/hero2.jpg',
-    title: 'Our Mission',
-    description: 'To improve and expand sustainable Christ-centered education globally.',
-  },
-  {
-    image: '/market.jpg',
-    title: 'Making a Difference',
-    description: 'Empowering communities through education and sustainable development.',
-  },
-  {
-    image: '/hero1.jpg',
-    title: 'Join Our Cause',
-    description: 'Be part of the change you want to see in the world.',
-  },
-];
-
-const Hero = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [isAutoPlaying] = useState(true);
-  const [touchStart, setTouchStart] = useState<number | null>(null);
-  const [progress, setProgress] = useState(0);
-
-  const nextSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-    setProgress(0);
-  }, []);
-
-  const prevSlide = useCallback(() => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-    setProgress(0);
-  }, []);
-
-  useEffect(() => {
-    let timer: NodeJS.Timeout;
-    if (isAutoPlaying) {
-      timer = setInterval(() => {
-        setProgress((prev) => {
-          if (prev >= 100) {
-            nextSlide();
-            return 0;
-          }
-          return prev + 0.5;
-        });
-      }, 25);
-    }
-    return () => clearInterval(timer);
-  }, [isAutoPlaying, nextSlide]);
-
-  const handleTouchStart = (e: React.TouchEvent) => {
-    setTouchStart(e.touches[0].clientX);
-  };
-
-  const handleTouchMove = (e: React.TouchEvent) => {
-    if (!touchStart) return;
-    
-    const currentTouch = e.touches[0].clientX;
-    const diff = touchStart - currentTouch;
-
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        nextSlide();
-      } else {
-        prevSlide();
-      }
-      setTouchStart(null);
-    }
-  };
-
-  return (
-    <div 
-  className="relative bg-white overflow-hidden h-[600px]"
-  onTouchStart={handleTouchStart}
-  onTouchMove={handleTouchMove}
->
-  
-  <div className="absolute inset-0">
-    {slides.map((slide, index) => (
-      <div
-        key={index}
-        className={`absolute inset-0 transition-opacity duration-1000 ${
-          index === currentSlide ? 'opacity-100' : 'opacity-0'
-        }`}
-      >
-        <img
-          src={slide.image}
-          alt={slide.title}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-      </div>
-    ))}
-  </div>
-
-  {/* Content - Modified for bottom positioning with bottom-origin slant /}
-  <div className="relative h-full w-full">
-    <div className="absolute bottom-0 right-0 w-full">
-      <div className="flex justify-end">
-        <div className="text-right max-w-2xl">
-          {slides.map((slide, index) => (
-            <div
-              key={index}
-              className={`transition-opacity duration-1000 ${
-                index === currentSlide ? 'opacity-100' : 'opacity-0 absolute'
-              }`}
-            >
-              <div className="bg-green-600 bg-opacity-40 p-10 
-                [clip-path:polygon(0_0,100%_0,100%_100%,10%_100%)]">
-                <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                  {slide.title}
-                </h1>
-                <p className="mt-6 text-xl text-white">
-                  {slide.description}
-                </p>
-                <div className="mt-10">
-                  <Link
-                    href="/give"
-                    className="inline-block bg-[#4db848] text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-[#d0952c] transition-colors"
-                  >
-                    Give today
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  {/* Progress Bar *}
-  <div className="absolute top-0 left-0 w-full h-1 bg-black/20">
-    <div 
-      className="h-full bg-[#4db848] transition-all duration-100"
-      style={{ width: `${progress}%` }}
-    />
-  </div>
-</div>
-  );
-};
-
-export default Hero; */}

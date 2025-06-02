@@ -9,7 +9,7 @@ export default function OurApproachPage() {
       {/* Page Header with Full-width Image */}
       <div className="relative w-full h-[60vh] overflow-hidden">
       <Image 
-          src="/blog2.jpg"
+          src="/hero4.jpg"
           alt="Our Approach Header Background" 
           fill
           style={{ objectFit: 'cover' }}
