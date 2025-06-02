@@ -28,19 +28,19 @@ export function ImageSection() {
         <div className="bg-gray-50 flex items-center justify-center p-8 lg:p-16 -mb-12 mt-12">
           <div className="max-w-md space-y-8">
             <div className="text-center">
-              <h2 className="text-4xl lg:text-5xl font-light tracking-[0.1em] text-gray-900 mb-8">Empowering Shea Nuts Farmers</h2>
+              <h2 className="text-4xl lg:text-5xl font-light tracking-[0.1em] text-gray-900 mb-8">Overview of Agriculture in Ghana</h2>
             </div>
             <p className="text-gray-700 leading-relaxed text-justify">
-            Technology empowers Africa&apos;s shea farmers by enabling financial access. AI analyzes harvest data for collateral-free loans, 
-            while mobile money provides instant financing. Blockchain ensures fair pricing through transparent supply chains. These 
-            innovations help women farmers invest in equipment and sustainable growth, transforming subsistence farming into viable 
-            businesses while preserving traditional practices and connecting them to global markets.
+            Agriculture in Ghana is largely characterized by smallholder farming, with approximately
+             90% of farmers cultivating less than 2 hectares of land. Despite the vast agricultural potential, 
+             only 0.4% of the 7.85 million hectares of cultivated land is under irrigation. This highlights a significant 
+             underutilization of irrigation technology in the country.
             </p>
-            <div className="pt-4">
-              <button className="bg-[#4db848] rounded-lg text-white px-8 py-3 text-sm tracking-wider hover:bg-[#d0952c] transition-colors">
-                Read More
-              </button>
-            </div>
+            <ul>
+            •	Employment Contribution: Agriculture employs about 52% of the workforce.</ul>
+            <ul>•	GDP Contribution: In 2016, agriculture contributed 19.5% to Ghana’s GDP (ISSER, 2016).</ul>
+            <ul>•	Land Use: 56% of Ghana’s land area is used for cultivation.</ul>  
+            
           </div>
         </div>
       </div>
@@ -59,19 +59,18 @@ export function ImageSection() {
         <div className="bg-gray-50 flex items-center justify-center p-8 lg:p-16 order-2 lg:order-1 ">
           <div className="max-w-md space-y-8">
             <div className="text-center">
-              <h2 className="text-4xl lg:text-5xl font-light tracking-[0.1em] text-gray-900 mb-8">Decoding Credit Risk</h2>
+              <h2 className="text-4xl lg:text-5xl font-light tracking-[0.1em] text-gray-900 mb-8">Key Challenges in the Agricultural Sector</h2>
             </div>
             <p className="text-gray-700 leading-relaxed text-justify">
-            AI now assesses credit risk for shea farmers using alternative data - mobile transactions, harvest records, and 
-            market trends. Machine learning models bypass traditional collateral requirements, enabling fair loan approvals. 
-            This tech-driven approach empowers smallholder farmers, mostly women, to access capital, grow their businesses, 
-            and sustainably participate in global supply chains.
+            1. Low Yields and Productivity
             </p>
-            <div className="pt-4">
-              <button className="bg-[#4db848] rounded-lg text-white px-8 py-3 text-sm tracking-wider hover:bg-[#d0952c] transition-colors">
-                Read More
-              </button>
-            </div>
+            <hr/>
+            <p className="text-gray-700 leading-relaxed text-justify">2. Low Adoption of Improved Technology</p> 
+            <hr />
+            <p className="text-gray-700 leading-relaxed text-justify">3. High Post-Harvest Losses</p>
+            <hr />
+            <p className="text-gray-700 leading-relaxed text-justify">4. Poor Quality Produce</p> 
+
           </div>
         </div>
         
