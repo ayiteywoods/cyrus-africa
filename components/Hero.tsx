@@ -139,30 +139,30 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative h-full flex items-center justify-center">
-        <div className="absolute bottom-0 right-0 w-full">
-          <div className="flex justify-end">
-            <div className="w-full md:w-1/2 text-right px-4 md:px-0">
-              <div className="bg-green-700 bg-opacity-70 p-6 md:p-10 
-                [clip-path:polygon(0_0,100%_0,100%_100%,20%_100%)]">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-white whitespace-nowrap overflow-hidden">
-                  Empowering Communities
-                </h1>
-                <p className="mt-4 md:mt-6 text-lg md:text-xl text-white pl-8 md:pl-8">
-                  Empowering women through sustainable trade and economic resilience.
-                </p>
-                <div className="mt-6 md:mt-10">
-                  <Link
-                    href="/give"
-                    className="inline-block bg-[#4db848] text-white px-6 py-2 md:px-8 md:py-3 rounded-md text-base md:text-lg font-medium hover:bg-[#d0952c] transition-colors"
-                  >
-                    Support Our Mission
-                  </Link>
-                </div>
-              </div>
-            </div>
+  <div className="absolute bottom-0 right-0 w-full">
+    <div className="flex justify-end">
+      <div className="w-full md:w-1/2 text-right px-4 md:px-0">
+        <div className="bg-green-700 bg-opacity-70 p-6 md:p-10 
+          [clip-path:polygon(0_0,100%_0,100%_100%,20%_100%)]">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-white overflow-hidden whitespace-normal">
+            Empowering Communities
+          </h1>
+          <p className="mt-3 sm:mt-4 md:mt-6 text-base sm:text-lg md:text-xl text-white pl-4 sm:pl-8">
+            Empowering women through sustainable trade and economic resilience.
+          </p>
+          <div className="mt-4 sm:mt-6 md:mt-10">
+            <Link
+              href="/give"
+              className="inline-block bg-[#4db848] text-white px-4 py-1.5 sm:px-6 sm:py-2 md:px-8 md:py-3 rounded-md text-sm sm:text-base md:text-lg font-medium hover:bg-[#d0952c] transition-colors"
+            >
+              Support Our Mission
+            </Link>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
     </div>
   );
 };
