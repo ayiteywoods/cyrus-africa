@@ -182,16 +182,16 @@ const Navbar = () => {
               <hr className="border-gray-200 my-3 mx-2" />
               
               <div className="flex justify-center space-x-4 px-2 pt-2 pb-2">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://www.instagram.com/cyrusafricafoundation" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaInstagram size={20} />
                 </a>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaFacebook size={20} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaLinkedin size={20} />
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://www.youtube.com/@CyrusMicrocreditServices" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaYoutube size={20} />
                 </a>
               </div>

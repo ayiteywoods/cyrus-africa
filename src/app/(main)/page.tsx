@@ -26,7 +26,7 @@ export default function HomePage() {
               className="relative h-[400px] rounded-lg overflow-hidden shadow-xl"
             >
               <Image 
-                src="/impact.jpg"
+                src="/about.jpg"
                 alt="Our Mission"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -162,29 +162,31 @@ export default function HomePage() {
             Our Recent Project
             </motion.h2>
             </div>
-            <div className='rounded-xl shadow-lg overflow-hidden m-8 bg-white grid md:grid-cols-3 gap-8 my-16'>
-              <div className='col-span-1'>
-                <Image 
-                  src="/project1.png"
-                  alt="Project Image"
-                  width={400}
-                  height={300}
-                  className="object-cover w-1/2 h-64 md:h-auto p-4 align-middle mx-auto"
-                />
-              </div>
-              <div className='p-6 flex flex-col justify-between col-span-2'>
-                <h3 className="text-2xl font-semibold mb-3">The Ekulibi Project</h3>
-                <p className="text-gray-600 mb-4">
-                  Understanding Poverty: A Multi-dimensional Perspective. This project focuses on leveraging digital tools to provide fair financing options for shea nut farmers, breaking traditional barriers to capital access.
-                </p>
-                <Link
-                  href="/ekulibi/project">           
-                <button className='rounded-lg bg-[#4db848] px-6 py-3 text-white  hover:bg-[#3d9c3a] transition-colors'>
-                  Read More
-                </button>
-                </Link>
-            </div>
-            </div>
+            <div className='rounded-xl shadow-lg overflow-hidden m-8 bg-white grid grid-cols-1 md:grid-cols-3 gap-8 my-16'>
+  {/* Image container - now properly centered on all screens */}
+  <div className='flex justify-center items-center w-full md:col-span-1'>
+    <Image 
+      src="/project1.png"
+      alt="Project Image"
+      width={400}
+      height={300}
+      className="object-cover w-full max-w-[350px] h-auto p-4 md:w-2/3 md:h-auto"
+    />
+  </div>
+  
+  {/* Content container */}
+  <div className='p-6 flex flex-col justify-between md:col-span-2'>
+    <h3 className="text-2xl font-semibold mb-3">The Ekulibi Project</h3>
+    <p className="text-gray-600 mb-4">
+      Understanding Poverty: A Multi-dimensional Perspective. This project focuses on leveraging digital tools to provide fair financing options for shea nut farmers, breaking traditional barriers to capital access.
+    </p>
+    <Link href="/ekulibi/project">           
+      <button className='rounded-lg bg-[#4db848] px-6 py-3 text-white hover:bg-[#3d9c3a] transition-colors'>
+        Read More
+      </button>
+    </Link>
+  </div>
+</div>
             
         </div>
       </section>
@@ -291,11 +293,11 @@ export default function HomePage() {
         {/* Partners Column */}
         <div>
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Our Partners</h2>
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
-            {[1, 2, 4, 7, 5, 6].map((partner) => (
+          <div className="grid grid-cols-2 md:grid-cols-7 gap-6">
+            {[1, 2, 4, 7, 5, 6, 3].map((partner) => (
               <div key={partner} className="bg-white p-4 rounded-lg flex items-center justify-center h-32">
                 <Image
-                  src={`/part${partner}.png`} // Update with your actual partner images
+                  src={`/p${partner}.png`} // Update with your actual partner images
                   alt={`Partner ${partner}`}
                   width={120}
                   height={80}

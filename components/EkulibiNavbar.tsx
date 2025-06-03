@@ -89,16 +89,16 @@ const EkulibiNavbar = () => {
 
             {/* Desktop Social Media Icons */}
             <div className="hidden md:flex items-center space-x-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
+              <a href="https://www.instagram.com/cyrusafricafoundation" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaInstagram size={20} />
               </a>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaFacebook size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
+              <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaLinkedin size={20} />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
+              <a href="https://www.youtube.com/@CyrusMicrocreditServices" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaYoutube size={20} />
               </a>
             </div>
@@ -121,6 +121,14 @@ const EkulibiNavbar = () => {
           {isMenuOpen && (
             <div className="md:hidden pb-4 bg-white">
               <div className="flex flex-col space-y-0 px-2 pt-2">
+              <Link 
+                  href="/" 
+                  className={`${isActive('/') ? 'bg-[#4db848]/10 text-[#4db848]' : 'text-gray-700'} hover:bg-gray-100 px-3 py-3 rounded-md transition-colors`}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  CAF
+                </Link>
+                <hr className="border-gray-200 mx-2" />
                 <Link 
                   href="/about" 
                   className={`${isActive('/about') ? 'bg-[#4db848]/10 text-[#4db848]' : 'text-gray-700'} hover:bg-gray-100 px-3 py-3 rounded-md transition-colors`}
@@ -189,16 +197,16 @@ const EkulibiNavbar = () => {
               <hr className="border-gray-200 my-3 mx-2" />
               
               <div className="flex justify-center space-x-4 px-2 pt-2 pb-2">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://www.instagram.com/cyrusafricafoundation" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaInstagram size={20} />
                 </a>
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaFacebook size={20} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaLinkedin size={20} />
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://www.youtube.com/@CyrusMicrocreditServices" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaYoutube size={20} />
                 </a>
               </div>

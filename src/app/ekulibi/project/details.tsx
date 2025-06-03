@@ -199,7 +199,7 @@ const Details = () => {
           alt="Project"
           width={500}
           height={400}
-          className="object-cover w-2/3 h-44 md:h-auto p-4 mx-auto"
+          className="object-cover w-1/2 lg:w-2/3 h-44 md:h-auto p-4 mx-auto"
         />
       </div>
 

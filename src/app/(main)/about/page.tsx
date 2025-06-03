@@ -67,7 +67,7 @@ export default function AboutPage() {
               className="relative h-[400px] rounded-lg overflow-hidden shadow-xl"
             >
               <Image 
-                src="/impact.jpg"
+                src="/about.jpg"
                 alt="Our Story"
                 fill
                 style={{ objectFit: 'cover' }}
