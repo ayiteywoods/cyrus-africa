@@ -30,7 +30,7 @@ const Hero = () => {
       duration: 8500   // 8.5 seconds
     },
     {
-      src: '/hero6.jpg',
+      src: '/baby.jpeg',
       startZoom: 1.3,
       endZoom: 1.1,
       position: '80% center',

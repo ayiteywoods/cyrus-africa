@@ -69,7 +69,7 @@ export default function BlogPage() {
       {/* Page Header with Full-width Image */}
       <div className="relative w-full h-[60vh] overflow-hidden">
          <Image 
-          src="/hero6.jpg"
+          src="/kids.jpeg"
           alt="Blog Header Background" 
           fill
           style={{ objectFit: 'cover' }}
