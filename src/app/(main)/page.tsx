@@ -131,7 +131,7 @@ export default function HomePage() {
             >
               <div className="relative h-48">
                 <Image 
-                  src="/use6.jpg"
+                  src="/digital.jpeg"
                   alt="Digital Transformation"
                   fill
                   style={{ objectFit: 'cover' }}

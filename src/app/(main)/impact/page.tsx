@@ -167,7 +167,7 @@ export default function ImpactPage() {
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
                 <div className="relative h-48">
                   <Image
-                    src="/use5.jpg"
+                    src="/digital.jpeg"
                     alt="Success Story 2"
                     fill
                     style={{ objectFit: 'cover' }}
