@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link';
-import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin  } from 'react-icons/fa';
 import Image from 'next/image';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
