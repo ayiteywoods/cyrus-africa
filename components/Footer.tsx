@@ -33,9 +33,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaLinkedin size={24} />
               </a>
-              <a href="https://www.youtube.com/@CyrusMicrocreditServices" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
-                <FaYoutube size={24} />
-              </a>
+              
             </div>
           </div>
 
