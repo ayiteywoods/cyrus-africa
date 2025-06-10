@@ -13,7 +13,7 @@ const blogPosts = [
     excerpt: "How we're leveraging technology to empower rural communities and create sustainable change.",
     image: "/market.jpg",
     date: "March 15, 2024",
-    author: "John Doe",
+    author: "Nana Kwadjo",
     category: "Technology"
   },
   {
@@ -22,7 +22,7 @@ const blogPosts = [
     excerpt: "Real stories from communities that have benefited from our innovative financing approach.",
     image: "/blog2.jpg",
     date: "March 10, 2024",
-    author: "Jane Smith",
+    author: "Maame Yaa",
     category: "Impact"
   },
   {
@@ -31,7 +31,7 @@ const blogPosts = [
     excerpt: "The importance of strategic partnerships in achieving our mission of rural development.",
     image: "/use3.jpg",
     date: "March 5, 2024",
-    author: "Mike Johnson",
+    author: "Maame Yaa",
     category: "Partnerships"
   },
   {
@@ -40,7 +40,7 @@ const blogPosts = [
     excerpt: "How we're making financial services accessible to underserved communities.",
     image: "/hero1.jpg",
     date: "February 28, 2024",
-    author: "Sarah Williams",
+    author: "Nana Kwadjo",
     category: "Finance"
   },
   {
@@ -58,7 +58,7 @@ const blogPosts = [
     excerpt: "How digital mapping is revolutionizing supply chain management in rural areas.",
     image: "/use4.jpg",
     date: "February 15, 2024",
-    author: "Lisa Chen",
+    author: "Nana Kwadjo",
     category: "Innovation"
   }
 ];
