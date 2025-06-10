@@ -92,7 +92,7 @@ const EkulibiNavbar = () => {
               <a href="https://www.instagram.com/cyrusafricafoundation" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaInstagram size={20} />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
+              <a href="https://facebook.com/61577333454908/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaFacebook size={20} />
               </a>
               <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
@@ -198,7 +198,7 @@ const EkulibiNavbar = () => {
                 <a href="https://www.instagram.com/cyrusafricafoundation" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaInstagram size={20} />
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://facebook.com/61577333454908/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaFacebook size={20} />
                 </a>
                 <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
