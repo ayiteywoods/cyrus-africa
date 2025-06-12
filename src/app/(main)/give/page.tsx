@@ -81,15 +81,15 @@ export default function GivePage() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Bank Name</p>
-                    <p className="font-mono">[Your Bank Name]</p>
+                    <p className="font-mono">[Prudential Bank Ghana limited]</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Account Number</p>
-                    <p className="font-mono">[Your Account Number]</p>
+                    <p className="font-mono">[0352000060017]</p>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-gray-500">SWIFT Code</p>
-                    <p className="font-mono">[Your SWIFT Code]</p>
+                    <p className="text-sm font-medium text-gray-500">Branch</p>
+                    <p className="font-mono">[Nungua Branch]</p>
                   </div>
                 </div>
               </div>
