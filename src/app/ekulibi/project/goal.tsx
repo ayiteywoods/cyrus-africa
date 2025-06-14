@@ -61,15 +61,35 @@ export function ImageSection() {
             <div className="text-center">
               <h2 className="text-4xl lg:text-5xl font-light tracking-[0.1em] text-gray-900 mb-8">Key Challenges in the Agricultural Sector</h2>
             </div>
-            <p className="text-gray-700 leading-relaxed text-justify">
-            1. Low Yields and Productivity
+            <h3 className="text-gray-700 leading-relaxed text-justify font-bold">
+            1. Blue Skies Ghana – Financing with Embedded Farmers
+            </h3>
+            <p/>
+            <p>
+            How: Blue Skies works with over 200 local farmers who supply fresh 
+            fruits for export. Through value chain partnerships with banks and input providers, 
+            farmers receive pre-financed inputs and training, which are deducted after harvest sales.
             </p>
+            <p className='font-bold'>
+            Impact: </p>
+            <ul>Increased yields by 30–40%</ul>
+           <ul>Farmers gained steady incomes and reduced loan default rates</ul> 
+            <ul>Boosted export quality and volumes for Blue Skies</ul> 
+
+            
+            
             <hr/>
-            <p className="text-gray-700 leading-relaxed text-justify">2. Low Adoption of Improved Technology</p> 
-            <hr />
-            <p className="text-gray-700 leading-relaxed text-justify">3. High Post-Harvest Losses</p>
-            <hr />
-            <p className="text-gray-700 leading-relaxed text-justify">4. Poor Quality Produce</p> 
+            <h3 className="text-gray-700 leading-relaxed text-justify font-bold">2. ⁠The Shea Nut Value Chain in Northern Ghana – Women 
+              Empowerment through Finance </h3>
+              <p>How:
+              NGOs like SNV and partners like USAID helped organize women shea collectors and processors into cooperatives. 
+              With access to group loans and business training, they scaled processing activities and negotiated better prices.</p>
+              <p className='font-bold'>Impact:</p>
+              <ul>Thousands of women received financing and business skills
+              </ul>
+              <ul>Shea butter exports rose, increasing incomes and household stability
+              </ul>
+              <ul>Empowered women’s voices in local economies</ul>
 
           </div>
         </div>
