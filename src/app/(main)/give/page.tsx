@@ -77,19 +77,19 @@ export default function GivePage() {
                 <div className="space-y-3">
                   <div>
                     <p className="text-sm font-medium text-gray-500">Account Name</p>
-                    <p className="font-mono">Cyrus Africa Foundation</p>
+                    <p>Cyrus Africa Foundation</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Bank Name</p>
-                    <p className="font-mono">[Prudential Bank Ghana limited]</p>
+                    <p>[Prudential Bank Ghana limited]</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Account Number</p>
-                    <p className="font-mono">[0352000060017]</p>
+                    <p>[0352000060017]</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Branch</p>
-                    <p className="font-mono">[Nungua Branch]</p>
+                    <p>[Nungua Branch]</p>
                   </div>
                 </div>
               </div>
@@ -121,19 +121,19 @@ export default function GivePage() {
                 <div className="space-y-3">
                   <div>
                     <p className="text-sm font-medium text-gray-500">Mobile Number</p>
-                    <p className="font-mono">[Your Mobile Money Number]</p>
+                    <p>[Your Mobile Money Number]</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Network</p>
-                    <p className="font-mono">[MTN/Airtel/etc.]</p>
+                    <p>[MTN/Airtel/etc.]</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Recipient Name</p>
-                    <p className="font-mono">Cyrus Africa Foundation</p>
+                    <p>Cyrus Africa Foundation</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Reference Code</p>
-                    <p className="font-mono">DONATION</p>
+                    <p>DONATION</p>
                   </div>
                 </div>
               </div>
