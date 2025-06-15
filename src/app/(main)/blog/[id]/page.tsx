@@ -44,20 +44,25 @@ Looking ahead, we're expanding our digital transformation efforts to reach more 
 
 Here are some of our most inspiring success stories:
 
-1. The Maize Farmers of Eastern Region
-A group of 50 maize farmers in Eastern Region received financing to improve their farming practices and access better markets. Within one year, their average income increased by 60%, and they were able to expand their operations significantly.
+1. ⁠Blue Skies Ghana – Financing with Embedded Farmers
+How:
+- Blue Skies works with over 200 local farmers who supply fresh fruits for export. Through value chain partnerships with banks and input providers, farmers receive pre-financed inputs and training, which are deducted after harvest sales.
 
-2. The Coffee Cooperative in Rwanda
-Our partnership with a coffee cooperative in Rwanda helped them secure financing for new processing equipment. This led to:
-- Improved coffee quality
-- Higher market prices
-- Increased export opportunities
+Impact:
+- Increased yields by 30–40% 
+- Farmers gained steady incomes and reduced loan default rates
+- Boosted export quality and volumes for Blue Skies
 
-3. The Women's Agricultural Group in Northern Region
-A women's group in Northern Rgion received financing to start a collective farming initiative. The results were remarkable:
-- 80% increase in crop yields
-- Creation of 20 new jobs
-- Establishment of a successful local market
+
+2. The Shea Nut Value Chain in Northern Ghana – Women Empowerment through Finance
+How:
+- NGOs like SNV and partners like USAID helped organize women shea collectors and processors into cooperatives. With access to group loans and business training, they scaled processing activities and negotiated better prices
+
+Impact:
+- Thousands of women received financing and business skills
+- Shea butter exports rose, increasing incomes and household stability
+- Empowered women’s voices in local economies
+
 
 These success stories demonstrate the transformative power of value chain financing. By providing access to capital and technical support, we're helping rural communities build sustainable businesses and improve their livelihoods.`,
     image: "/blog2.jpg",
