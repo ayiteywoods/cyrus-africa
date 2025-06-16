@@ -42,7 +42,7 @@ Looking ahead, we're expanding our digital transformation efforts to reach more 
     excerpt: "Real stories from communities that have benefited from our innovative financing approach.",
     content: `Value Chain Financing in Ghana has already proven its ability to transform agriculture, empower rural communities, and drive inclusive economic growth. The success stories are evidence that when finance is structured to follow the flow of goods, knowledge, and trust, it creates lasting impact.
 
-Here are some of our most inspiring success stories:
+Here are some inspiring case studies:
 
 1. ⁠Blue Skies Ghana – Financing with Embedded Farmers
 How:

@@ -61,15 +61,30 @@ export function ImageSection() {
             <div className="text-center">
               <h2 className="text-4xl lg:text-5xl font-light tracking-[0.1em] text-gray-900 mb-8">Key Challenges in the Agricultural Sector</h2>
             </div>
-            <p className="text-gray-700 leading-relaxed text-justify">
-            1. Low Yields and Productivity
+            <p>Despite its growing global demand, Ghana’s shea butter sector faces several structural and operational 
+              challenges that hinder its full economic potential:
             </p>
+            <p className="text-gray-700 leading-relaxed text-justify">
+            1. Low Productivity of Shea Trees
+            </p>
+            <p>Most shea trees in Ghana grow wild, with no deliberate cultivation. This results in inconsistent supply, long gestation periods, and minimal yield improvements.</p>
             <hr/>
             <p className="text-gray-700 leading-relaxed text-justify">2. Low Adoption of Improved Technology</p> 
+            <p>Many women producers use traditional methods with limited access to modern equipment. This reduces efficiency, compromises quality, and limits competitiveness in international markets. Without improved technology, it’s difficult to meet export standards or scale operations. Boosting adoption is key to unlocking the sector’s full potential.
+            </p>
             <hr />
-            <p className="text-gray-700 leading-relaxed text-justify">3. High Post-Harvest Losses</p>
+            <p className="text-gray-700 leading-relaxed text-justify">3. Limited Access to Finance</p>
+            <p>Many women producers use traditional methods with limited access to modern equipment. This reduces efficiency, compromises quality, and limits competitiveness in international markets. Without improved technology, it’s difficult to meet export standards or scale operations. Boosting adoption is key to unlocking the sector’s full potential.
+            </p>
             <hr />
-            <p className="text-gray-700 leading-relaxed text-justify">4. Poor Quality Produce</p> 
+            <p className="text-gray-700 leading-relaxed text-justify">4. Market Access and Price Fluctuations
+            </p> 
+            <p>Producers are often at the mercy of middlemen and seasonal price swings. They have limited bargaining power and little access to export markets or fair trade opportunities.
+            </p>
+            <hr />
+            <p className="text-gray-700 leading-relaxed text-justify">5. Quality Control Issues
+            </p>
+            <p>Lack of standardized production methods and poor post-harvest handling can lead to contamination or inconsistent product quality, affecting export potential.</p>
 
           </div>
         </div>
