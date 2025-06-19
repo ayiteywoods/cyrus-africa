@@ -154,18 +154,22 @@ export default function GivePage() {
               <p className="text-gray-700 mb-4">
                 Every contribution helps us empower rural communities:
               </p>
-              <div className="grid md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+              <div className="grid md:grid-cols-4 gap-4 max-w-4xl mx-auto">
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <p className="text-[#4db848] font-bold text-xl mb-2">$50</p>
-                  <p>Provides [specific impact] to a family</p>
+                  <p className="text-[#4db848] font-bold text-3xl mb-2">$50</p>
+                  
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <p className="text-[#4db848] font-bold text-xl mb-2">$100</p>
-                  <p>Helps [another specific impact]</p>
+                  <p className="text-[#4db848] font-bold text-3xl mb-2">$100</p>
+                
                 </div>
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <p className="text-[#4db848] font-bold text-xl mb-2">$500</p>
-                  <p>Enables [significant transformation]</p>
+                  <p className="text-[#4db848] font-bold text-3xl mb-2">$500</p>
+                  
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm">
+                  <p className="text-[#4db848] font-bold text-3xl mb-2">Other</p>
+                  
                 </div>
               </div>
             </motion.div>
