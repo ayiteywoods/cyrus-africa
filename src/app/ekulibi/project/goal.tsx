@@ -65,26 +65,29 @@ export function ImageSection() {
               challenges that hinder its full economic potential:
             </p>
             <p className="text-gray-700 leading-relaxed text-left">
-            <p className="text-gray-700 leading-relaxed text-left">1. Low Productivity of Shea Trees</p>
+            <p className="text-gray-700 leading-relaxed text-left font-bold">1. Low Productivity of Shea Trees</p>
             <p className='text-left'>Most shea trees in Ghana grow wild, with no deliberate cultivation. This results in inconsistent supply, long gestation periods, and minimal yield improvements.</p>
             </p>
             <hr/>
-            <p className="text-gray-700 leading-relaxed text-left">2. Low Adoption of Improved Technology 
+            <p className="text-gray-700 leading-relaxed text-left">
+            <p className="text-gray-700 leading-relaxed text-left font-bold">2. Low Adoption of Improved Technology </p>
             <p className='text-left'>Many women producers use traditional methods with limited access to modern equipment. This reduces efficiency, compromises quality, and limits competitiveness in 
               international markets. Without improved technology, it’s difficult to meet export standards or scale operations. Boosting adoption is key to unlocking the sector’s full potential.</p>
             </p>
             <hr />
-            <p className="text-gray-700 leading-relaxed text-left">3. Limited Access to Finance
+            <p className="text-gray-700 leading-relaxed text-left">
+            <p className="text-gray-700 leading-relaxed text-left font-bold">3. Limited Access to Finance</p>
             <p className='text-left'>Many women producers use traditional methods with limited access to modern equipment. This reduces efficiency, compromises quality, and limits competitiveness 
               in international markets. Without improved technology, it’s difficult to meet export standards or scale operations. Boosting adoption is key to unlocking the sector’s full potential.</p>
             </p>
             <hr />
-            <p className="text-gray-700 leading-relaxed text-left">4. Market Access and Price Fluctuations
-            
+            <p className="text-gray-700 leading-relaxed text-left">
+            <p className="text-gray-700 leading-relaxed text-left font-bold">4. Market Access and Price Fluctuations</p>
             <p className='text-left'>Producers are often at the mercy of middlemen and seasonal price swings. They have limited bargaining power and little access to export markets or fair trade opportunities.</p> 
             </p>
             <hr />
-            <p className="text-gray-700 leading-relaxed text-left">5. Quality Control Issues
+            <p className="text-gray-700 leading-relaxed text-left">
+            <p className="text-gray-700 leading-relaxed text-left font-bold">5. Quality Control Issues</p>
             <p className='text-left'>Lack of standardized production methods and poor post-harvest handling can lead to contamination or inconsistent product quality, affecting export potential.</p>
             </p>
           </div>
