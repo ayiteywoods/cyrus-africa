@@ -121,11 +121,11 @@ export default function GivePage() {
                 <div className="space-y-3">
                   <div>
                     <p className="text-sm font-medium text-gray-500">Mobile Number</p>
-                    <p>[Your Mobile Money Number]</p>
+                    <p>[0543565122]</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Network</p>
-                    <p>[MTN/Airtel/etc.]</p>
+                    <p>[MTN Merchant]</p>
                   </div>
                   <div>
                     <p className="text-sm font-medium text-gray-500">Recipient Name</p>
