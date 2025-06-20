@@ -95,7 +95,7 @@ const EkulibiNavbar = () => {
               <a href="https://facebook.com/61577333454908/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaFacebook size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
+              <a href="https://www.linkedin.com/in/cyrus-microcredit-94b7b7366/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848]">
                 <FaLinkedin size={20} />
               </a>
               
@@ -201,7 +201,7 @@ const EkulibiNavbar = () => {
                 <a href="https://facebook.com/61577333454908/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaFacebook size={20} />
                 </a>
-                <a href="https://www.linkedin.com/in/cyrus-africa-foundation-b6555b369/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
+                <a href="https://www.linkedin.com/in/cyrus-microcredit-94b7b7366/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
                   <FaLinkedin size={20} />
                 </a>
                {/* <a href="https://www.youtube.com/@CyrusMicrocreditServices" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-[#4db848] p-2">
